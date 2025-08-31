@@ -23,7 +23,7 @@ export const EmailVerificationLinkExpired = ({ token }: { token: string }) => {
         title: 'Something went wrong, please try again!',
       });
     } finally {
-      setIsLoading(!true);
+      setIsLoading(false);
     }
   };
 
